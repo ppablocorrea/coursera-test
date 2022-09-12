@@ -1,0 +1,151 @@
+@font-face{
+	font-family: brother;
+	src: url('fuentes/Brother.ttf') format('truetype');
+}
+
+.redes-sociales{
+	margin-right: 5px;
+}
+
+.logo-redes{
+	margin-top: 5px;
+}
+
+body{
+	background-color: #F0F8FF;
+}
+
+.margen-arriba{
+	margin-top: 3px;
+	margin-bottom: -10px;
+}
+
+hr{
+	margin-bottom: 0px;
+}
+
+.body-segundo{
+	background-color: black;
+}
+
+.titulo-footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pequeño-margen{
+	margin-bottom: 4px;
+}
+
+.titulo-grande{
+	font-size: 60px;
+	opacity: 30%;
+}
+
+.pie{
+	background-color: black;
+}
+
+.letra-pie{
+	color: white;
+	display: inline;
+}
+
+.titulo-pagina{
+	font-family: brother;
+	opacity: 100%;
+	font-size: 35px;
+	margin-right: 250px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.titulo-secciones{
+	font-family: 'Didot', serif;
+	font-size: 90px;
+}
+
+.ajuste-posicion{
+	transition: .7s;
+	margin-top: 3px;
+	margin-bottom: -5px;
+	font-family: brother;
+	margin-right: 8px;
+}
+
+.ajuste-posicion:hover{
+	transition: .8s;
+	text-decoration: underline;
+}
+
+.card-canciones{
+	margin-right: 10px;
+}
+
+.imagen{
+	transition: .7s;
+	opacity: 1;
+}
+
+.nombre-cancion{
+	transition: .7s;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: 'Helvetica Neue' ,serif;
+	font-weight: 400;
+}
+
+.cancion:hover .imagen-cancion{
+	transition: .7s;
+	opacity: 0.3;
+}
+
+.cancion:hover .nombre-cancion{
+	transition: .7s;
+	opacity: 1;
+}
+
+.nombre-cancion:hover{
+	text-decoration: underline;
+}
+
+.row{
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+.ultima-row{
+	margin-bottom: 100px;
+}
+
+.titulo-extragrande{
+	font-size: 120px;
+	opacity: 30%;
+}
+
+.mostrar-videos{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.musica:hover{
+	transition: 1.2s;
+	border-color: black;
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+.musica-normal{
+	transition: 1.2s;
+}
+
+
+
+
+
